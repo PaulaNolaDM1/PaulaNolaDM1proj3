@@ -1,0 +1,88 @@
+@charset "UTF-8";
+  /* CSS Document */
+body{font-family: sans-serif; }
+body {background-color: rgb(255, 216, 145);}
+h1, h2, h3 {color: rgb(128, 0, 0);}
+
+
+
+
+ @font-face {
+
+  font-family: "PaulaNola";
+  src:url("PaulaNolafont.ttf");
+}
+
+h1 {font-family: "PaulaNola"}
+
+p {color: rgb(128, 0, 0);}
+
+body {
+  background-image: url("5f2auvtw4pc21.png");
+
+}
+
+
+
+}
+
+p {	padding:200px; /*centriranje*/
+			margin-left: auto;
+			margin-right:auto;
+			width: 300px;
+			}
+	p {
+			background-color:rgb(255, 228, 196);
+			padding:20px;
+			border: 2px solid IndianRed;
+		}
+
+h1,h2,h3  {	padding:200px;
+			margin-left: auto;
+			margin-right:auto;
+			width: 300px;
+			}
+h1,h2,h3 {
+			background-color:rgb(255, 228, 196);
+			padding:20px;
+			border: 2px solid IndianRed;
+		}
+
+
+
+
+<center>
+#mainMenu {
+	margin:10px;
+	width:900px;
+	font-family: sans-serif;
+}
+
+
+#mainMenu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:rgb(255, 228, 196);
+	color:rgb(128, 0, 0);
+}
+
+#mainMenu a:hover {
+	background-color:rgb(128, 0, 0);
+	color:rgb(255, 228, 196);
+}
+
+</center>
+
+<style>
+body {
+  background-image: #000 center/cover url("slika2.jpeg") no-repeat;
+}
